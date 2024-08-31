@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/worldwidenews/static/css/main.db43815e.css",
+    "main.js": "/worldwidenews/static/js/main.f7f4eddf.js",
+    "index.html": "/worldwidenews/index.html",
+    "main.db43815e.css.map": "/worldwidenews/static/css/main.db43815e.css.map",
+    "main.f7f4eddf.js.map": "/worldwidenews/static/js/main.f7f4eddf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db43815e.css",
+    "static/js/main.f7f4eddf.js"
+  ]
+}
