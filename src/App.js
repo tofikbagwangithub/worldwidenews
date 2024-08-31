@@ -1,3 +1,4 @@
+import {HashRouter} from "react-router-dom";
 import {useEffect, useState} from "react";
 import './App.css';
 import News from './News';
@@ -20,6 +21,7 @@ function App() {
   }, [category])
   return (
     <div className="App">
+      <HashRouter>
       <header className='header'>
       <h1>WorldWideNews</h1>
       <input type='text' onChange={(event)=>{
@@ -45,6 +47,7 @@ function App() {
     <h3> No news found for searched text </h3>
   }
       </section>
+      </HashRouter>
 
     </div>
   );
